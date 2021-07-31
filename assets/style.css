@@ -1,0 +1,53 @@
+body {
+    font-family: monospace;
+    font-size: 14px;
+    background-color: #F9C7DF;
+    color: #471029;
+    max-width: 700px;
+    margin: auto;
+    padding: 15px;
+    line-height: 19px;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+
+h2 {
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 15.4px;
+}
+
+h3 {
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 15.4px;
+}
+
+h4 {
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15.4px;
+}
+
+blockquote {
+    font-family: monospace;
+    font-weight: 400;
+    border-left: 3px solid #471029;
+    padding-left: 0.7em;
+}
+
+pre {
+    font-family: monospace;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+}

@@ -13,6 +13,8 @@ Laudantium ipsam quasi quia reiciendis dolor. Eos soluta quo itaque et sit. Repe
 
 > Eaque repellendus rerum eius id fugit necessitatibus. Velit soluta eum ex. Laborum et quibusdam qui omnis sit minus incidunt sed. Placeat culpa dolores minus debitis vel dolores nostrum dolor. Labore nihil aut recusandae doloremque sed est blanditiis eum.
 
+**bold** and *italics* and ~~strikethrough~~.
+
 - uwu
 - owo
 - nya
@@ -29,10 +31,11 @@ Laudantium ipsam quasi quia reiciendis dolor. Eos soluta quo itaque et sit. Repe
     2. owo
     3. nya
 
-```python
-def fib(n):
-    if n < 2:
-        return n
-    else:
-        return fib(n - 1) + fib(n - 2)
+```
+take = (n, [x, ...xs]:list) -->
+  | n <= 0     => []
+  | empty list => []
+  | otherwise  => [x] ++ take n-1, xs
+
+last3 = reverse >> take 3 >> reverse
 ```
