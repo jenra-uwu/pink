@@ -9,6 +9,14 @@ body {
     line-height: 19px;
 }
 
+a {
+    color: #471029;
+}
+
+hr {
+    color: #471029;
+}
+
 h1 {
     font-family: monospace;
     font-size: 24px;
@@ -47,7 +55,5 @@ blockquote {
 pre {
     font-family: monospace;
     font-size: 14px;
-    font-style: normal;
-    font-variant: normal;
     font-weight: 400;
 }

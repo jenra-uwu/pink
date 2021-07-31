@@ -1,6 +1,11 @@
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="assets/style.css" />
+        <link rel="stylesheet" type="text/css" href="/assets/style.css" />
+        {% if page.title %}
+            <title>
+                {{ page.title }}
+            </title>
+        {% endif %}
     </head>
     <body>
         {{ content }}

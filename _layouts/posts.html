@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<style>
+    .post-list {
+        list-style-type: none;
+    }
+</style>
+
+{{ content }}
+
+{% assign posts = site.posts %}
+
+{%- if posts.size > 0 -%}
+    {%- if page.list_title -%}
+        <h2 class="post-list-heading">{{ page.list_title }}</h2>
+    {%- endif -%}
+
+    <ul class="post-list">
+    {%- assign date_format = site.pink.date_format | default: "%b %-d, %Y" -%}
+    {%- for post in posts -%}
+        <li>
+            <h2>
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                </a>
+            </h2>
+            <p><em>{{ post.date | date: date_format }}</em></p>
+            {{ post.excerpt }}
+        <hr>
+        </li>
+    {%- endfor -%}
+    </ul>
+
+{% else %}
+    <p>
+        No posts here! Come back later!
+    </p>
+{%- endif -%}
+
