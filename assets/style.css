@@ -45,6 +45,7 @@ pre {
     font-family: monospace;
     font-size: 14px;
     font-weight: 400;
+    max-width: 700px;
 }
 
 body {
@@ -57,8 +58,3 @@ body {
     padding: 15px;
     line-height: 19px;
 }
-
-* {
-    max-width: 700px;
-}
-
