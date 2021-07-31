@@ -1,14 +1,3 @@
-body {
-    font-family: monospace;
-    font-size: 14px;
-    background-color: #F9C7DF;
-    color: #471029;
-    max-width: 700px;
-    margin: auto;
-    padding: 15px;
-    line-height: 19px;
-}
-
 a {
     color: #471029;
 }
@@ -57,3 +46,19 @@ pre {
     font-size: 14px;
     font-weight: 400;
 }
+
+body {
+    font-family: monospace;
+    font-size: 14px;
+    background-color: #F9C7DF;
+    color: #471029;
+    max-width: 700px;
+    margin: auto;
+    padding: 15px;
+    line-height: 19px;
+}
+
+* {
+    max-width: 700px;
+}
+
