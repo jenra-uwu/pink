@@ -3,7 +3,7 @@ layout: default
 ---
 
 <style>
-    .post-list {
+    #post-list {
         list-style-type: none;
     }
 </style>
@@ -14,15 +14,15 @@ layout: default
 
 {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
-        <h2 class="post-list-heading">{{ page.list_title }}</h2>
+        <h2>{{ page.list_title }}</h2>
     {%- endif -%}
 
-    <ul class="post-list">
+    <ul id="post-list">
     {%- assign date_format = site.pink.date_format | default: "%b %-d, %Y" -%}
     {%- for post in posts -%}
         <li>
             <h2>
-                <a class="post-link" href="{{ post.url | relative_url }}">
+                <a href="{{ post.url | relative_url }}">
                     {{ post.title | escape }}
                 </a>
             </h2>
@@ -32,7 +32,6 @@ layout: default
         </li>
     {%- endfor -%}
     </ul>
-
 {% else %}
     <p>
         No posts here! Come back later!
