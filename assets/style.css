@@ -57,13 +57,13 @@ pre {
     font-size: 14px;
     font-weight: 400;
     max-width: inherit !important;
-    white-space: pre-wrap;
-    overflow-wrap: break-word; 
+    white-space: pre-wrap !important;
+    overflow-wrap: break-word !important;
 }
 
 code {
     max-width: inherit !important;
-    white-space: pre-wrap;
-    overflow-wrap: break-word; 
+    white-space: pre-wrap !important;
+    overflow-wrap: break-word !important;
 }
 
