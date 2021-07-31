@@ -61,8 +61,10 @@ pre {
 
 code {
     max-width: inherit !important;
+    white-space: pre-wrap;
 }
 
 div {
     max-width: inherit !important;
+    white-space: pre-wrap;
 }
