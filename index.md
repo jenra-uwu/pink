@@ -31,6 +31,8 @@ Laudantium ipsam quasi quia reiciendis dolor. Eos soluta quo itaque et sit. Repe
     2. owo
     3. nya
 
+some `inline code` for uwuing.
+
 ```
 take = (n, [x, ...xs]:list) -->
   | n <= 0     => []
